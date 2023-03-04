@@ -2,7 +2,7 @@
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/App/Classess" isTestSource="false" packagePrefix="App\Classess\" />
+      <sourceFolder url="file://$MODULE_DIR$/App/Classes" isTestSource="false" packagePrefix="App\Classes\" />
       <sourceFolder url="file://$MODULE_DIR$/App/Controllers" isTestSource="false" packagePrefix="App\Controllers\" />
       <sourceFolder url="file://$MODULE_DIR$/App/Interfaces" isTestSource="false" packagePrefix="App\Interfaces\" />
       <sourceFolder url="file://$MODULE_DIR$/App/Models" isTestSource="false" packagePrefix="App\Models\" />
@@ -12,6 +12,8 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/var-dumper" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/twig/twig" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
