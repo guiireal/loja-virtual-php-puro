@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Classess;
+namespace App\Classes;
 
 class Uri
 {
