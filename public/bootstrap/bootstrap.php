@@ -3,6 +3,7 @@
 use App\Classes\Template;
 use App\Controllers\Controller;
 use App\Controllers\Method;
+use App\Classes\Parameters;
 
 $template = new Template;
 $twig = $template->init();
