@@ -11,6 +11,7 @@ $callController = new Controller;
 $calledController = $callController->controller();
 
 $controller = new $calledController();
+$controller->setTwig($twig);
 
 $callMethod = new Method;
 $method = $callMethod->method($controller);
