@@ -1,7 +1,11 @@
 <?php
 
+use App\Classes\Template;
 use App\Controllers\Controller;
 use App\Controllers\Method;
+
+$template = new Template;
+$twig = $template->init();
 
 $callController = new Controller;
 $calledController = $callController->controller();
